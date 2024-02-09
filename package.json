@@ -1,5 +1,5 @@
 {
-  "homepage": "http://patilgiridhar333.github.io/Reset_Password_And_Authentication",
+  "homepage": "https://patilgiridhar333.github.io/Reset_Password_And_Authentication/",
   "name": "reset-pass",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
